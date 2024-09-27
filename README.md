@@ -28,6 +28,7 @@ Splitly is a Web app for splitting bills with friends!🥰
       - For first time setup:
         - `make init` to install dependencies, load the database fixtures
         - `make start` to start the container, generate schema, migrate & seed the database, and start the server.
+        - Use `make db-stop` to stop the container.
         - You can find useful information about the Makefile commands within the Makefile itself.
       - For subesequent runs:
           - `pnpm dev`  to start the server.
