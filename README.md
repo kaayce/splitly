@@ -1,6 +1,4 @@
 # Splitly
-### App for splitting bills with friends🥰
-
 ## Project overview
 Splitly is a Web app for splitting bills with friends!🥰
 
@@ -17,22 +15,23 @@ Splitly is a Web app for splitting bills with friends!🥰
 - Error Handling:
   - Input validation for user contributions.
   - Display of error messages for invalid inputs or failed payment requests.
-  -
+
 ## App Setup
+  - Create a .env file in both the frontend and backend directory using the .env.example file as a template.
 ### Frontend
-    - Navigate to the frontend directory and run:
-      - pnpm install
-      - pnpm dev, app should be available on http://localhost:5173
+  - Navigate to the frontend directory and run:
+    - pnpm install
+    - pnpm dev, app should be available on http://localhost:5173
 ### Backend
-    The backend requires **Docker** and **Docker Compose** to run the database.
-    - Navigate to the backend directory and do the following:
-        - For first time setup:
-          - `make init` to install dependencies, load the database fixtures
-          - `make start` to start the container, generate schema, migrate & seed the database, and start the server.
-          - You can find useful information about the Makefile commands within the Makefile itself.
-        - For subesequent runs:
-            - `pnpm dev`  to start the server.
-            - `pnpm db:push` to push the schema to the database.
+  The backend requires **Docker** and **Docker Compose** to run the database.
+  - Navigate to the backend directory and do the following:
+      - For first time setup:
+        - `make init` to install dependencies, load the database fixtures
+        - `make start` to start the container, generate schema, migrate & seed the database, and start the server.
+        - You can find useful information about the Makefile commands within the Makefile itself.
+      - For subesequent runs:
+          - `pnpm dev`  to start the server.
+          - `pnpm db:push` to push the schema to the database.
 
 ## Schema
 I went with PostgresDB for this project, due to the relational model of the entities involved
@@ -112,6 +111,8 @@ To reduce scope and complexity, the app has the following limitations:
 Thanks for checking out Splitly!
 I really enjoyed working on this project and hope you enjoy using it.
 It's my frst time working with Vue and I'm really proud of how it turned out.
+
+That said, it’s definitely not finished and is still a work in progress!
 
 Please let  me know if you have any feedback or suggestions for improvements!
 If you run into any issues or require additional information, please [email](mailto:patrick.nzediegwu@gmail.com)
