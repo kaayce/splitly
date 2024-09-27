@@ -109,6 +109,7 @@ To reduce scope and complexity, the app has the following limitations:
 - ChatGPT for prototyping ideas and generating code snippets.
 
 Thanks for checking out Splitly!
+The project took roughly 12 hours so far (not including time spent on loking at documentation).
 I really enjoyed working on this project and hope you enjoy using it.
 It's my frst time working with Vue and I'm really proud of how it turned out.
 
