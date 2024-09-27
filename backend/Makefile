@@ -17,7 +17,7 @@ init:
 
 start:
 	$(MAKE) db-start || true # start containers
-	db-setup
+	$(MAKE) db-setup # setup database
 	pnpm dev
 
 sql:
