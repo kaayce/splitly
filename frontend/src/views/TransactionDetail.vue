@@ -33,7 +33,6 @@ const handleActionClick = (item: typeof actionItems[number]) => {
 <template>
   <TransactionHeader>
     <div class="p-2" v-if="transaction">
-      <div class="w-10 h-10 bg-red-500 rounded-full mr-2"></div>
       <div class="flex justify-between w-full">
         <div class="text-sm text-gray-400 font-bold">
           <h2 class="text-xl text-white font-bold">{{ transaction.vendor }}</h2>
