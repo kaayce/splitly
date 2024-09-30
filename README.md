@@ -99,8 +99,9 @@ To reduce scope and complexity:
 
 - Most backend data is generated for faster development.
 - No authentication or authorization (but includes a helpful user management button).
-- Bill split functionality currently only supports dividing the total amount equally.
+- Bill split functionality currently only supports dividing the total amount.
 - No payment request/management features - bill payments are assumed to be paid immediately.
+- For users with multiple accounts, deductions from friends are currently processed by selecting the first account found in the database. This could be improved by allowing friends to choose which account they’d like the bill subtracted from.
 - No user account management/authentication.
 
 ## Future Improvements
@@ -112,7 +113,8 @@ To reduce scope and complexity:
 - Enable users to create and manage their own accounts.
 - Implement payment request/management, custom split options.
 - Bill reminders/notification system.
-- Enhance database performance and scalability (e.g., prepared statements, indexing).
+- Enhance database performance and scalability (e.g., prepared statements, query optimization, indexing).
+- Use caching to reduce database load.
 - Add shared tabs for groups
 
 ## Technologies
