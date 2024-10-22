@@ -139,7 +139,7 @@ To reduce scope and complexity:
 - [Tailwind CSS Documentation](https://tailwindcss.com/) - [Tailwind CSS Cheatsheet](https://www.creative-tim.com/twcomponents/cheatsheet)
 
 Thanks for checking out *Splitly*!
-The project took roughly 12 hours so far, and I really enjoyed working on it! It's my first time using Vue, and I'm proud of how it turned out.
+The project took roughly 18 hours so far, and I really enjoyed working on it!
 
 That said, it’s still a work in progress and far from finished, but it’s ready to ship! 🎉
 
